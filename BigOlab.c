@@ -1,3 +1,12 @@
+#include <time.h>
+#include <stdio.h>
+int fun1(int n){
+  int i,j;
+  for (i=0;i<n;i++){    //O(N+1)
+    j=1;                //O(N)
+  }
+}
+
 #define MAX 20000
 
 int main(){
